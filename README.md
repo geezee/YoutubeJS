@@ -5,12 +5,14 @@ the HTML5 trial.
 
 The author recommends to join the HTML5 trial at https://youtube.com/html5
 
+Be sure to read more on the Github page http://geezee.github.io/youtubejs.github.io
+
 
 ## How to use it
 Add this line of code in your bookmarks:
 
 ```
-javascript:var s=document.createElement("script");s.src="https://raw.github.com/geezee/YoutubeJS/master/youtube.js";document.body.appendChild(s);
+javascript:(function() {var s=document.createElement("script");s.src="https://raw.github.com/geezee/YoutubeJS/master/youtube.js";document.body.appendChild(s); })()
 ```
 
 Be sure to enable popus for youtube.com. Once the script has loaded a new window will open with the links
