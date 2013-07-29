@@ -129,7 +129,7 @@
      *                          the download
     */
     function create_fill_placeholder(info) {
-        alert("Please enable popus for Youtube.comif you have disabled them. YoutubeJS will open a new window with all the links in");
+        alert("YoutubeJS requires popus to be enabled. Please enable them if you haven't.\nA new window will open with the download links.");
         var download_window = window.open();
         // Fill the window with the HTML
         download_window.document.write("<html>");
